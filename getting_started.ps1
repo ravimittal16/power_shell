@@ -1,2 +1,2 @@
-$ComputerName = Read-Host 'Computer Name'
-echo $ComputerName
+# Reading sub-folders from directory
+Get-ChildItem -Path D:\Practice -Force
